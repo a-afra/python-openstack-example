@@ -1,0 +1,33 @@
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# tests and coverage
+*.pytest_cache
+.coverage
+
+# database & logs
+postgres_data/
+*.db
+*.sqlite3
+*.log
+
+# venv
+env
+venv
+.env.prod
+.env.database
+.venv
+
+# other
+.DS_Store
+
+staticfiles/*
+!staticfiles/.gitkeep
+
+**/node_modules
+yarn.lock
+.temp
+
+.idea
+.vscode
